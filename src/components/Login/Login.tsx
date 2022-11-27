@@ -1,11 +1,11 @@
 import "./Login.css";
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import Form from "./Form";
 import image1 from "../image/agora-small-groups.jpg";
 import { useSelector } from "react-redux";
 
-const Login= () => {
-  const [formInput,setFormInput]=useState<string>("");
+const Login = () => {
+  const [formInput, setFormInput] = useState<string>("");
   const [formPassword, setFormPassword] = useState<string>("");
   //const states = useSelector((state: any) => state);
   // console.log("Login page",states);  
